@@ -15,6 +15,15 @@ function order() {
 
     let tour = prompt('Which tour would you like? high or low end');
     let contact = prompt('Please put your phone number below, we will reach out to you :)')
+}
 
+//Opens a side menue to links
+function openSlideMenu() {
+    document.getElementById('side-menu').style.width = '250px';
+    document.getElementById('main').style.marginLeft = '250px';
+}
 
+function closeSlideMenu() {
+    document.getElementById('side-menu').style.width = '0';
+    document.getElementById('main').style.marginLeft = '0';
 }

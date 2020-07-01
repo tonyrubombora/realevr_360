@@ -143,6 +143,13 @@
                 height: 300px;
                 margin-bottom: -100px;
             }
+            
+            #main {
+                transition: margin-left 0.5s;
+                padding: 20px;
+                overflow: hidden;
+                width: 100%;
+            }
             /*  */
             /* /* @media screen and (max-width:700px) {} */
             
@@ -150,12 +157,12 @@
                 .logo {
                     margin-left: -20%;
                 }
-                .menu {
-                    display: none;
-                }
                 .menu .order {
                     display: inline-flex;
                     float: right;
+                }
+                .menu {
+                    display: none;
                 }
                 /* viewport 2 */
             }
