@@ -4,3 +4,17 @@ function view() {
     window.location.href = "./html/high-end.html";
     console.log('window location directed to page highend html');
 }
+
+//pop up message
+
+function contact() {
+    alert('Please reach out to us on this number \n +256750756996 or +25677');
+}
+
+function order() {
+
+    let tour = prompt('Which tour would you like? high or low end');
+    let contact = prompt('Please put your phone number below, we will reach out to you :)')
+
+
+}
