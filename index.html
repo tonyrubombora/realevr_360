@@ -5,22 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+    <link rel="manifest" href="./images/site.webmanifest">
     <title>Reale Virtual Reality</title>
 </head>
 
 <body>
     <div class="wrapper">
         <div class="nav">
-            <div class="logo" href="index.html">
-                REALE VR
+            <div class="logo">
+                <ul>
+                    <li><a href="./index.html">REALE VR</a></li>
+                </ul>
             </div>
             <div class="menu">
                 <ul>
-                    <li><a href="#">HOME</a></li>
+                    <li><a href="./index.html">home</a></li>
                     <li><a href="./html/high-end.html">high-end tours</a></li>
                     <li><a href="#low">low-end tours</a></li>
-                    <li><a href="#contact">contact us</a></li>
-                    <li><a href="#order">order a tour</a></li>
+                    <li><a href="#" onclick="contact();">contact us</a></li>
+                    <li><a id="order" href="#" onclick="order();">order a tour</a></li>
                 </ul>
             </div>
         </div>
@@ -29,7 +35,13 @@
             <p>
                 Real Estate marketing redifined
             </p>
-            <button id="view" type="button" onclick="view();">View $1 million in VR</button>
+            <!-- maknig the whole button clickable -->
+            <a href="#">
+                <button id="view" type="button" onclick="view();">
+                View $1 million in VR
+            </button>
+            </a>
+
         </div>
 
     </div>
