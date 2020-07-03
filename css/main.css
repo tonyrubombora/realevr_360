@@ -35,17 +35,11 @@
                 font-size: 16px;
                 line-height: 80px;
                 padding: 0 6em;
-            }
-            
-            .logo ul {
                 list-style: none;
+                /* display: inline-block; */
             }
             
-            .logo ul li {
-                display: inline-block;
-            }
-            
-            .logo ul li a {
+            .logo a {
                 text-decoration: none;
                 color: #fff;
                 font-size: 16px;
@@ -76,12 +70,56 @@
                 padding: 0 30px;
             }
             
-            ul li:nth-child(5) a {
+            ul li:nth-child(6) a {
                 color: #009f8b;
                 border: 1px solid #009f8b;
                 padding: 10px 20px;
                 border-radius: 4px;
             }
+            /* Slide menu */
+            
+            #main {
+                transition: margin-left 0.5s;
+                padding: 20px;
+                overflow: hidden;
+                width: 100%;
+            }
+            
+            .side-nav {
+                height: 100%;
+                width: 0;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                background-color: #111;
+                opacity: 0.9;
+                overflow-x: hidden;
+                padding-top: 60px;
+                transition: 0.5s;
+            }
+            
+            .side-nav a {
+                padding: 10px 10px 10px 30px;
+                text-decoration: none;
+                font-size: 22px;
+                color: #fff;
+                display: block;
+                transition: 0.3s;
+            }
+            
+            .side-nav a:hover {
+                color: #009f8b;
+            }
+            
+            .side-nav .btn-close {
+                position: absolute;
+                top: 0;
+                right: 22px;
+                font-size: 36px;
+                margin-left: 50px;
+            }
+            /* header message */
             
             .header {
                 position: absolute;
