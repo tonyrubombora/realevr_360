@@ -191,7 +191,35 @@
                 overflow: hidden;
                 width: 100%;
             }
-            /*  */
+
+            /* low-end page 3 */
+
+            .buttons {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-align: center;
+            }
+
+            .buttons a {
+                text-decoration: none;
+                display: inline-block;
+                padding: 8px 16px;
+            }
+            .buttons .previous {
+                background-color: #f1f1f1;
+                color: black;
+              }
+              
+            .buttons .next {
+                background-color: #009f8b;
+                color: white;
+              }
+              
+             .buttons .round {
+                border-radius: 50%;
+              }
             /* /* @media screen and (max-width:700px) {} */
             
             @media screen and (max-width: 800px) {

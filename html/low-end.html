@@ -4,10 +4,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
+    <link rel="manifest" href="../images/site.webmanifest">
+    <title>Reale low-end tours</title>
 </head>
 
 <body>
+<div class="wrapper">
+      <!-- top nav bar (desktop) starts here-->
+    <div class="nav">
+        <span class="open-slide">
+            <div class="logo">
+                <a href="#" onclick="openSlideMenu()">
+                        REALE VR
+                </a>
+            </div>
+        <div class="menu">
+            <ul>
+                <li><a href="../index.html">home</a></li>
+                <li><a href="./about.html">about</a></li>
+                <li><a href="./high-end.html">high-end tours</a></li>
+                <li><a href="#low">low-end tours</a></li>
+                <li><a href="#" onclick="contact();">contact us</a></li>
+                <li><a id="order" href="#" onclick="order();">order a tour</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- side menu -->
+<div id="side-menu" class="side-nav">
+    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+  
+    <hr>
+    <a href="./index.html">Real</a>
+    <a href="./html/about.html">about</a>
+    <a href="./html/high-end.html">high-end</a>
+    <a href="./html/low-end.html">low-end</a>
+    <a href="./html/contact.html">contact us</a>
+    <a href="./html/contact.html">order a tour</a>
+
+   
+  </div>
+
+    <div id="high" class="high">
+        <h1>Our Work</h1>
+        <p>Low-end redefined</p>
+
+        <iframe id="vr" class="vr" src="https://momento360.com/e/u/672410b8150a4ce88167eadf6c8faf35?utm_campaign=embed&utm_source=other&heading=176.12443392585718&pitch=2.4691728515249878&field-of-view=94.68333333333322" frameborder="0" allowfullscreen allow="xr-spatial-tracking"></iframe>
+    </div>
+    <div class="buttons">
+        <a id='previous' href="#" class="previous round">&#8249;</a>
+        <a id='next' href="low-end.html" onclick="getNext()" class="next round">&#8250;</a>
+        </div>
+</div>
 
 </body>
 
