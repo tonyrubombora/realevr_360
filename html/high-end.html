@@ -16,28 +16,47 @@
     <div class="wrapper">
         <div class="nav">
             <div class="logo">
-                <ul>
-                    <li><a href="../index.html">REALE VR</a></li>
-                </ul>
+                <a href="#" onclick="openSlideMenu()">
+                    REALE VR
+            </a>
             </div>
+
             <div class="menu">
                 <ul>
                     <li><a href="../index.html">home</a></li>
-                    <li><a href="../html/high-end.html">high-end</a></li>
-                    <li><a href="#">low-end</a></li>
+                    <li><a href="./about.html">about</a></li>
+                    <li><a href="./high-end.html">high-end tours</a></li>
+                    <li><a href="#low">low-end tours</a></li>
                     <li><a href="#" onclick="contact();">contact us</a></li>
-                    <li><a class="order" href="#" onclick="order();">order a tour</a></li>
+                    <li><a id="order" href="#" onclick="order();">order a tour</a></li>
                 </ul>
             </div>
-        </div>
-        <div id="high" class="high">
-            <h1>Our Work</h1>
-            <p>High-end redifined</p>
 
-            <iframe class="vr" src="https://my.matterport.com/show/?m=ax5zsDiNSut" frameborder="0" allowfullscreen allow="xr-spatial-tracking"></iframe>
-        </div>
 
-    </div>
+            <!-- side menu -->
+            <div id="side-menu" class="side-nav">
+                <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+
+                <hr>
+                <a href="./index.html">real</a>
+                <a href="./html/about.html">about</a>
+                <a href="./html/high-end.html">high-end</a>
+                <a href="./html/low-end.html">low-end</a>
+                <a href="./html/contact.html">contact us</a>
+                <a href="./html/contact.html">order a tour</a>
+
+
+            </div>
+
+            <!-- Header text -->
+            <div id="high" class="high">
+                <h1>What we do</h1>
+                <p>High-end redifined</p>
+
+                <iframe class="vr" src="https://my.matterport.com/show/?m=ax5zsDiNSut" frameborder="0" allowfullscreen allow="xr-spatial-tracking"></iframe>
+            </div>
+
+        </div>
 </body>
 
 </html>
