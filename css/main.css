@@ -133,7 +133,7 @@
                 
                 .header {
                     position: absolute;
-                    top: 50%;
+                    top: 60%;
                     left: 50%;
                     transform: translate(-50%, -50%);
                     text-align: center;
@@ -188,7 +188,7 @@
                 
                 .low {
                     position: absolute;
-                    top: 60%;
+                    top: 50%;
                     left: 50%;
                     transform: translate(-50%, -50%);
                     text-align: center;
@@ -213,8 +213,7 @@
                     width: 100%;
                 }
                 /* low-end page 3 */
-                
-                .buttons {
+                /* .buttons {
                     position: absolute;
                     top: 50%;
                     left: 50%;
@@ -240,7 +239,7 @@
                 
                 .buttons .round {
                     border-radius: 50%;
-                }
+                } */
                 /* /* @media screen and (max-width:700px) {} */
                 
                 @media screen and (max-width: 800px) {
@@ -255,20 +254,41 @@
                     .menu {
                         display: none;
                     }
-                    /* Header messages */
+                    /* "Real Virtual Reality" home page*/
                     .header h1 {
-                        color: #fff;
-                        font-size: 200%;
-                        font-weight: 400;
+                        margin-top: 10px;
+                        font-size: 30px;
                     }
                     .header p {
-                        color: #fff;
-                        font-size: 125%;
-                        font-weight: lighter;
+                        margin-top: 10px;
+                        font-size: 20px;
+                    }
+                    .header button {
+                        padding: 10px 10px;
+                    }
+                    /* "What we do" high end page */
+                    .high {
+                        top: 70%;
+                    }
+                    .high h1 {
+                        font-size: 25px;
+                    }
+                    .high p {
+                        font-size: 15px;
                     }
                     .high .vr {
                         width: 100%;
                         height: 280px;
+                    }
+                    /* Our work: low-end page */
+                    .low {
+                        top: 60%;
+                    }
+                    .low h1 {
+                        font-size: 25px;
+                    }
+                    .low p {
+                        font-size: 15px;
                     }
                     .low .vr {
                         width: 100%;
