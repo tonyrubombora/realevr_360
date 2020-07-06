@@ -36,6 +36,7 @@
                 line-height: 80px;
                 padding: 0 6em;
                 list-style: none;
+                margin-top: 10px;
                 /* display: inline-block; */
             }
             
@@ -46,13 +47,19 @@
                 font-weight: black;
                 padding: 0 20px;
             }
+            
+            .logo img {
+                height: 20px;
+                width: 20px;
+                padding-top: 25px;
+            }
             /* NAV BAR */
             
             .menu {
                 float: right;
                 line-height: 50px;
                 margin: 0 6em;
-                margin-top: -40px;
+                /* margin-top: -40px; */
             }
             
             .menu ul {
@@ -178,22 +185,14 @@
                 font-weight: lighter;
             }
             
-            .high iframe {
-                transform: translate(-20%, 0%);
-                width: 200%;
-                height: 300px;
-                margin-bottom: -100px;
-            }
-            
             #main {
                 transition: margin-left 0.5s;
                 padding: 20px;
                 overflow: hidden;
                 width: 100%;
             }
-
             /* low-end page 3 */
-
+            
             .buttons {
                 position: absolute;
                 top: 50%;
@@ -201,30 +200,31 @@
                 transform: translate(-50%, -50%);
                 text-align: center;
             }
-
+            
             .buttons a {
                 text-decoration: none;
                 display: inline-block;
                 padding: 8px 16px;
             }
+            
             .buttons .previous {
                 background-color: #f1f1f1;
                 color: black;
-              }
-              
+            }
+            
             .buttons .next {
                 background-color: #009f8b;
                 color: white;
-              }
-              
-             .buttons .round {
+            }
+            
+            .buttons .round {
                 border-radius: 50%;
-              }
+            }
             /* /* @media screen and (max-width:700px) {} */
             
             @media screen and (max-width: 800px) {
                 .logo {
-                    margin-left: -20%;
+                    margin-left: -10%;
                 }
                 .menu .order {
                     display: inline-flex;
