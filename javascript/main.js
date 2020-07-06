@@ -15,9 +15,10 @@ function contact() {
 }
 
 function order() {
+    alert('Please reach out to us on this number \n +256750756996 or +256779662303');
 
-    let tour = prompt('Which tour would you like? high or low end');
-    let contact = prompt('Please put your phone number below, we will reach out to you :)')
+    // let tour = prompt('Which tour would you like? high or low end');
+    // let contact = prompt('Please put your phone number below, we will reach out to you :)')
 }
 
 //Opens a side menue to links
